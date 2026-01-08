@@ -48,6 +48,3 @@ skillsy/
 5. Run frontend: `cd frontend && npm run dev`
 6. Run backend: `cd backend && uvicorn main:app --reload`
 
-## Development
-
-This project is built iteratively. Each feature is developed and committed separately.
