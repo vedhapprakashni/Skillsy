@@ -1,5 +1,4 @@
-# Skillsy - Skill Trading Platform
-
+# Skillsy 
 A full-stack web application that allows users to trade skills by earning credits in a barter-like system. Users can be both learners and mentors, switching between profiles with different interfaces.
 
 ## Tech Stack
