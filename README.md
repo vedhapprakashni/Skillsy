@@ -1,5 +1,5 @@
 # Skillsy 
-A full-stack web application that allows users to trade skills by earning credits in a barter-like system. Users can be both learners and mentors, switching between profiles with different interfaces.
+A full-stack skill-exchange platform built on a credit-based barter model, where users can alternate between learner and mentor roles, each with dedicated user experiences
 
 ## Tech Stack
 
