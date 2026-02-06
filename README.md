@@ -21,14 +21,14 @@ skillsy/
 
 ## Features (MVP)
 
-- ✅ Google Authentication
-- ✅ User profiles (skills, certifications, achievements)
-- ✅ Learner/Mentor mode toggle
-- ✅ Light/Dark theme
-- ✅ Search mentors by skills
-- ✅ Connection requests
-- ✅ Real-time chat
-- ✅ Credits system (initial 10 credits, earning/spending, tips)
+- Google Authentication
+- User profiles (skills, certifications, achievements)
+- Learner/Mentor mode toggle
+- Light/Dark theme
+- Search mentors by skills
+- Connection requests
+- Real-time chat
+- Credits system (initial 10 credits, earning/spending, tips)
 
 ## Getting Started
 
