@@ -31,8 +31,8 @@ export default function LoginPage() {
         },
       })
       if (error) throw error
-    } catch (error: any) {
-      alert(error.message)
+    } catch (error) {
+      alert(error instanceof Error ? error.message : 'An error occurred')
     } finally {
       setLoading(false)
     }

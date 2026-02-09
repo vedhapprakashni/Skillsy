@@ -6,10 +6,13 @@ import { ThemeToggle } from './theme-toggle'
 import { createClient } from '@/lib/supabase/client'
 import { useEffect, useState } from 'react'
 import { User, LogOut } from 'lucide-react'
+import { ModeToggle } from './mode-toggle'
+import { useMode } from '@/lib/hooks/use-mode'
 
 export function Navbar() {
   const pathname = usePathname()
-  const [user, setUser] = useState<any>(null)
+  const [user, setUser] = useState<{ id: string } | null>(null)
+  const { mode } = useMode()
   const supabase = createClient()
 
   useEffect(() => {
@@ -47,18 +50,21 @@ export function Navbar() {
         <div className="flex items-center gap-4">
           {user ? (
             <>
+              <ModeToggle />
               <Link
                 href="/dashboard"
                 className="text-sm font-medium text-foreground hover:text-primary transition-colors"
               >
                 Dashboard
               </Link>
-              <Link
-                href="/search"
-                className="text-sm font-medium text-foreground hover:text-primary transition-colors"
-              >
-                Find Mentors
-              </Link>
+              {mode === 'learner' && (
+                <Link
+                  href="/search"
+                  className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+                >
+                  Find Mentors
+                </Link>
+              )}
               <div className="flex items-center gap-2">
                 <Link
                   href="/profile"

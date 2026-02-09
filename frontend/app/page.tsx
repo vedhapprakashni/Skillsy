@@ -18,7 +18,7 @@ export default function Home() {
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
             A platform where you can teach what you know and learn what you need.
-            Earn credits by mentoring, spend them to learn. It's that simple.
+            Earn credits by mentoring, spend them to learn. It&apos;s that simple.
           </p>
           <div className="flex gap-4 justify-center">
             <Link
