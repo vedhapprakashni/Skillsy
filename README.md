@@ -38,7 +38,7 @@ A full-stack skill-exchange platform built on a credit-based barter model, where
 5. Run frontend: `cd frontend && npm run dev`
 6. Run backend: `cd backend && uvicorn main:app --reload`
 
-For Quick Startup:
+For Quick Startup in Windows:
 
 1. Run `.\start-frontend.ps1`
 2. Run `.\start-backend.ps1` in two different terminals.
