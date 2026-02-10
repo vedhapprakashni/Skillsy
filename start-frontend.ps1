@@ -27,4 +27,4 @@ Write-Host "🚀 Starting Next.js dev server on http://localhost:3000" -Foregrou
 Write-Host "Press Ctrl+C to stop" -ForegroundColor Yellow
 Write-Host ""
 
-npm run dev
+cmd /c "npm run dev"
