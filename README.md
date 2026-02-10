@@ -1,5 +1,8 @@
 # Skillsy 
-A full-stack skill-exchange platform built on a credit-based barter model, where users can alternate between learner and mentor roles, each with dedicated user experiences
+A full-stack skill-exchange platform built on a credit-based barter model, where users can alternate between learner and mentor roles, each with dedicated user experiences.
+
+![Uploading image.png…]()
+
 
 ## Tech Stack
 
